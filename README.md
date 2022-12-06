@@ -58,7 +58,7 @@ Remember that $i^2 = -1$. Multiplying out and combining the real and imaginary p
 $$z_2 = (\frac{1}{16} - \frac{2}{16}i + \frac{1}{16}i^2) + (-\frac{1}{4} + \frac{1}{4}i) = (-\frac{1}{4} + \frac{1}{8}i)$$
 $$z_3 = (-\frac{1}{4} + \frac{1}{8}i)^2 + (-\frac{1}{4} + -\frac{1}{4}i) = (-\frac{13}{64} + \frac{3}{16}i)$$
 $$z_4 = (-\frac{13}{64} + \frac{3}{16})^2 + (-\frac{1}{4} + -\frac{1}{4}i) = (-\frac{999}{4096} + \frac{89}{512}i)$$
-$$ \ldots $$
+$$ ... $$
 
 Once again, the fractional components are growing exponentially larger and larger, while the decimal value is approaching a consistent stable value. In this case, that value is $-0.22767334511267742 + 0.17178037486125625i$. You don't have to take my word for it though, if you'd like to work this out for yourself... this example is stable after only about 50 iterations. :)
 

@@ -62,7 +62,7 @@ $$\ldots$$
 
 Once again, the fractional components are growing exponentially larger and larger, while the decimal value is approaching a consistent stable value. In this case, that value is $-0.22767334511267742 + 0.17178037486125625i$. You don't have to take my word for it though, if you'd like to work this out for yourself... this example is stable after only about 50 iterations. :)
 
-The numbers for which this function remains bounded are apart of a set called the Mandelbrot set.
+The numbers for which this function remains bounded are part of a set called the Mandelbrot set.
 If we graph the set on the complex plane, something truly unexpected reveals itself.
 
 This is a visualization of the Mandelbrot Set. Despite having been discovered by Robert W. Brooks and Peter Matelski in 1978, it gets its name from the mathematician Benoit Mandelbrot, who was working at IBM in 1980 when he generated the first high quality images of it.

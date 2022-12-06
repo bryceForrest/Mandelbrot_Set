@@ -10,7 +10,7 @@ $$z_1 = 0^2 + 3 = 3$$
 $$z_2 = 3^2 + 3 = 12$$
 $$z_3 = 12^2 + 3 = 147$$
 $$z_4 = 147^2 + 3 = 21612$$
-$$ \ldots $$
+$$\ldots$$
 
 Notice that we are plugging in the output of the previous iteration into the function for $z_n$ to obtain $z_{n+1}$. This idea is known as ***recursion***, and is common in mathematics and computer science. 
 
@@ -21,7 +21,7 @@ $$z_1 = 0^2 + (-\frac{1}{4}) = -\frac{1}{4}$$
 $$z_2 = (-\frac{1}{4})^2 + (-\frac{1}{4}) = -\frac{3}{16}$$
 $$z_3 = (-\frac{3}{16})^2 + (-\frac{1}{4}) = -\frac{55}{256}$$
 $$z_4 = (-\frac{55}{256})^2 + (-\frac{1}{4}) = -\frac{13359}{65536}$$
-$$ ... $$
+$$\ldots$$
 
 While the values in the numerator and denomenator are growing larger and more unmanageable, the decimal value is actually converging, getting closer and closer to a single value. In this case, that value is around $-0.20710678118654752$. Numbers with this property are values for which the function $z_{n+1} = {z_n}^2 + c$ is ***bounded***.
 
@@ -58,7 +58,7 @@ Remember that $i^2 = -1$. Multiplying out and combining the real and imaginary p
 $$z_2 = (\frac{1}{16} - \frac{2}{16}i + \frac{1}{16}i^2) + (-\frac{1}{4} + \frac{1}{4}i) = (-\frac{1}{4} + \frac{1}{8}i)$$
 $$z_3 = (-\frac{1}{4} + \frac{1}{8}i)^2 + (-\frac{1}{4} + -\frac{1}{4}i) = (-\frac{13}{64} + \frac{3}{16}i)$$
 $$z_4 = (-\frac{13}{64} + \frac{3}{16})^2 + (-\frac{1}{4} + -\frac{1}{4}i) = (-\frac{999}{4096} + \frac{89}{512}i)$$
-$$ ... $$
+$$\ldots$$
 
 Once again, the fractional components are growing exponentially larger and larger, while the decimal value is approaching a consistent stable value. In this case, that value is $-0.22767334511267742 + 0.17178037486125625i$. You don't have to take my word for it though, if you'd like to work this out for yourself... this example is stable after only about 50 iterations. :)
 

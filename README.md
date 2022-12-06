@@ -21,7 +21,7 @@ $$z_1 = 0^2 + (-\frac{1}{4}) = -\frac{1}{4}$$
 $$z_2 = (-\frac{1}{4})^2 + (-\frac{1}{4}) = -\frac{3}{16}$$
 $$z_3 = (-\frac{3}{16})^2 + (-\frac{1}{4}) = -\frac{55}{256}$$
 $$z_4 = (-\frac{55}{256})^2 + (-\frac{1}{4}) = -\frac{13359}{65536}$$
-$$ \ldots $$
+$$ ... $$
 
 While the values in the numerator and denomenator are growing larger and more unmanageable, the decimal value is actually converging, getting closer and closer to a single value. In this case, that value is around $-0.20710678118654752$. Numbers with this property are values for which the function $z_{n+1} = {z_n}^2 + c$ is ***bounded***.
 

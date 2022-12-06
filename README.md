@@ -65,7 +65,7 @@ Once again, the fractional components are growing exponentially larger and large
 The numbers for which this function remains bounded are part of a set called the Mandelbrot set.
 If we graph the set on the complex plane, something truly unexpected reveals itself.
 
-This is a visualization of the Mandelbrot Set. Despite having been discovered by Robert W. Brooks and Peter Matelski in 1978, it gets its name from the mathematician Benoit Mandelbrot, who was working at IBM in 1980 when he generated the first high quality images of it.
+Above is a visualization of the Mandelbrot Set. Despite having been discovered by Robert W. Brooks and Peter Matelski in 1978, it gets its name from the mathematician Benoit Mandelbrot, who was working at IBM in 1980 when he generated the first high quality images of it.
 
 Since we can't really test infinitely many iterations, we can only approximate the set, by checking an arbitrarily large number of iterations (say, perhaps, 100).
 

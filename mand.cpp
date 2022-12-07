@@ -1,7 +1,7 @@
 /// TODO adjust scaled_i and scaled_j to use a center point w/ diameter
 
 /// @file mand.cpp
-/// @author Bryce Forrest <5006464939>
+/// @author Bryce Forrest
 /// @date 07/06/2022
 /// @note I pledge my word of honor that I have complied with the
 /// CSN Academic Integrity Policy while completing this assignment.
